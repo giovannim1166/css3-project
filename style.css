@@ -1,4 +1,10 @@
 #battle {
     text-align:center;
     color:red;
+    text-shadow: 3.5px 2px black;
+    
+}
+html {
+    height:100%;
+   background:radial-gradient(red,white,blue);
 }
