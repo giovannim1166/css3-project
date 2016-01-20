@@ -6,11 +6,11 @@
 }
 html {
     height:100%;
-   background:radial-gradient(red,white,blue);
+   /*background:radial-gradient(red,white,blue);*/
 }
-#football {
-    background: url(https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/AmericanFootball.svg/2000px-AmericanFootball.svg.png);
-    background-size:20px 20px;
-    transition
-    background-repeat:no-repeat;
+#goalpost {
+    transform: scale(.4,.4)
+    /*background: url(https://pixabay.com/static/uploads/photo/2014/04/02/10/43/goal-304325_960_720.png);*/
+    /*background-size:300px 300px;*/
+    /*background-repeat:no-repeat;*/
 }
