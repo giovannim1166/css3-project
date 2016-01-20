@@ -9,5 +9,8 @@ html {
    background:radial-gradient(red,white,blue);
 }
 #football {
-    background-size:;
+    background: url(https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/AmericanFootball.svg/2000px-AmericanFootball.svg.png);
+    background-size:20px 20px;
+    transition
+    background-repeat:no-repeat;
 }
