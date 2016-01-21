@@ -15,8 +15,16 @@ html {
     /*background-repeat:no-repeat;*/
 }
 #soccerball {
-    transform: scale(.1,.1);
+    transform: scale(.05,.05);
     height:50px;
     width:50px;
+    position:relative;
+    left:120px;
+    bottom:250px;
+   
+   
     
+}
+#kicker {
+    position:relative;
 }
