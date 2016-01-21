@@ -26,8 +26,10 @@ html {
    
     
 }
-#kicker {
+#kicker:hover{
     position:relative;
     top:60px;
-    transform: rotate(20deg );
+    transform: rotate(20deg);
+    
+    
 }
