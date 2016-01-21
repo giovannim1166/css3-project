@@ -27,4 +27,6 @@ html {
 }
 #kicker {
     position:relative;
+    top:60px;
+    transform: rotate(20deg );
 }
