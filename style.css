@@ -2,6 +2,8 @@
     text-align:center;
     color:white;
     text-shadow: 3.5px 2px black;
+    animation-name: title;
+    animation-duration:1s;
     
 }
 html {
@@ -34,4 +36,8 @@ html {
    right: 200px;    
   
     
+}
+@keyframes title{
+    from{opacity:0;}
+    to{opacity:1;}
 }
