@@ -2,7 +2,7 @@
     text-align:center;
     color:white;
     text-shadow: 3.5px 2px black;
-    animation-name: title;
+    animation-name: title; /*calls animation*/
     animation-duration:3s;
     
 }
@@ -23,12 +23,6 @@ html {
     left:120px;
     bottom:250px;
     transition:left 2s linear 0s;
-    /*animation-name:ball;*/
-    /*animation-delay:2s;*/
-    
-
-   
-   
     
 }
 #kicker:hover #soccerball{
@@ -36,7 +30,7 @@ html {
     transform: rotate(20deg) scale(.05,.05);
     left:350px;
     bottom:500px;
-    /*transition-duration:2s;*/
+    /*makes ball move when user hovers over the kicker*/
     
   
     
@@ -44,9 +38,6 @@ html {
 @keyframes title{
     from{opacity:0;}
     to{opacity:1;}
+    /*changes the title opacity when page loads*/
 }
 
-/*@keyframes ball{*/
-/*    from{left:120px bottom:250px;}*/
-/*    to{left:300px bottom:300px;}*/
-/*}*/
