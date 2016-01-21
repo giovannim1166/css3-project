@@ -3,7 +3,7 @@
     color:white;
     text-shadow: 3.5px 2px black;
     animation-name: title;
-    animation-duration:1s;
+    animation-duration:3s;
     
 }
 html {
@@ -13,9 +13,7 @@ html {
 }
 #goalpost {
     transform: scale(.4,.4)
-    /*background: url(https://pixabay.com/static/uploads/photo/2014/04/02/10/43/goal-304325_960_720.png);*/
-    /*background-size:300px 300px;*/
-    /*background-repeat:no-repeat;*/
+    
 }
 #soccerball {
    transform:scale(.05,.05);
@@ -25,6 +23,9 @@ html {
     left:120px;
     bottom:250px;
     transition:left 2s linear 0s;
+    /*animation-name:ball;*/
+    /*animation-delay:2s;*/
+    
 
    
    
@@ -33,7 +34,10 @@ html {
 #kicker:hover #soccerball{
     position:relative;
     transform: rotate(20deg) scale(.05,.05);
-   right: 200px;    
+    left:350px;
+    bottom:500px;
+    /*transition-duration:2s;*/
+    
   
     
 }
@@ -41,3 +45,8 @@ html {
     from{opacity:0;}
     to{opacity:1;}
 }
+
+/*@keyframes ball{*/
+/*    from{left:120px bottom:250px;}*/
+/*    to{left:300px bottom:300px;}*/
+/*}*/
